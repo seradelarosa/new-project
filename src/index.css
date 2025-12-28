@@ -1,22 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-:root {
-  --bg: #0a0a0a;
-  --window-bg: #111;
-  --accent: #ff4da6;
-  --border: #ffb7e5;
-}
-
+/* GLOBAL RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* GLOBAL BODY STYLING */
 body {
   background: var(--bg);
-  color: white;
+  color: var(--text);
   font-family: 'VT323', monospace;
   overflow-x: hidden;
+  transition: background 0.3s ease, color 0.3s ease;
+  padding-top: 150px; /* title + navbar height */
 }
 
+/* theme toggle */
+/* dark mode (default) */
+:root {
+  --bg: #000000;
+  --text: #ff7ad1;
+  --window-bg: #000000;
+  --border: #ff7ad1;
+  --accent: #ff7ad1;
+}
+
+/* light mode */
+.light-mode {
+  --bg: #ffb3e6; /* soft pink */
+  --text: #000000;
+  --window-bg: #ffb3e6;
+  --border: #000000;
+  --accent: #000000;
+}
+
+/* title style */
+.site-title {
+  width: 100%;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  background: var(--bg);
+  color: var(--accent);
+  font-family: 'VT323', monospace;
+  margin-top: 10px;
+}
+
+.title-main {
+  font-size: 48px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px var(--accent);
+  margin: 0;
+}
+
+.title-sub {
+  font-size: 20px;
+  opacity: 0.8;
+  margin-left: 6px;
+}
