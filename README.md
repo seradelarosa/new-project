@@ -14,3 +14,22 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+TODO:
+Create Windows:
+
+Ticker marquee under navbar for announcements
+
+Determine Nav pages:
+-home (about) widgets: basement radio, links to socials
+-press kit and contact, FAQ, collabs
+-streaming page (games and shit)
+-uto's lab (apps, widgets, resources, widget playground: demos, downloads, showcases)
+-closet (outfits, makeup looks, fashion inspo)
+-makeup
+-skincare
+-fashion (merch)
+
+
+Determine interactive elements:
