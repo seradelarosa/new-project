@@ -72,7 +72,7 @@
   border-bottom: 2px solid var(--border);
   padding: 10px;
   position: fixed;
-  top: 32px;
+  top: 135px;
   width: 100%;
   z-index: 99;
 }
